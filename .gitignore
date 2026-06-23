@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and Checkpoints
+*.pth
+*.pt
+*.onnx
+epochs_pangulite_era5/
+train_logs_pangulite_era5/
+epochs_pangulite_imdaa/
+train_logs_pangulite_imdaa/
+
+# HPC and PBS
+*.log
+*.err
+*.out
+*.pbs.o*
+*.pbs.e*
+
+# Data and Models
+data/
+*.nc
+*.grib
+*.grb2
+*.npy
+
+# VS Code
+.vscode/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
